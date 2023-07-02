@@ -3,6 +3,11 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem;
-  height: 100vh;
+  height: 90vh;
+  margin: 160px 0;
+}
+
+.code {
+  font-weight: 700;
+  font-family: var(--font-mono);
 }
