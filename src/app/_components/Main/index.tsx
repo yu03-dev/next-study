@@ -1,6 +1,6 @@
-import { Description } from "./Description";
-import { Links } from "./Links";
-import { Title } from "./Title";
+import { Description } from "../Description";
+import { Links } from "../Links";
+import { Title } from "../Title";
 import styles from "./Main.module.css";
 
 export function Main(props: { page: string }) {
