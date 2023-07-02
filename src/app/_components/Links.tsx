@@ -1,4 +1,4 @@
-import styles from "../page.module.css";
+import styles from "./Links.module.css";
 
 export function Links() {
   return (

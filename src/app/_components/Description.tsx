@@ -1,12 +1,13 @@
 import Image from "next/image";
-import styles from "../page.module.css";
+import styles from "./Description.module.css";
+import { ReactNode } from "react";
 
-export function Description(props: { page: string }) {
+export function Description(props: { children: ReactNode }) {
   return (
     <div className={styles.description}>
       <p>
         Get started by editing&nbsp;
-        <code className={styles.code}>src/app{props.page}/page.tsx</code>
+        {props.children}
       </p>
       <div>
         <a

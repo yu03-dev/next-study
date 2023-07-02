@@ -1,14 +1,14 @@
 import styles from "../page.module.css";
 import { Description } from "../_components/Description";
-import { Links } from "../_components/Links";
-import Title from "../_components/Title";
+import { Main } from "../_components/Main";
 
 export default function About() {
   return (
     <main className={styles.main}>
-      <Description page="/about" />
-      <Title page="about" />
-      <Links />
+      <Description>
+        <code className={styles.code}>src/app/about/page.tsx</code>
+      </Description>
+      <Main page="about" />
     </main>
   );
 }
