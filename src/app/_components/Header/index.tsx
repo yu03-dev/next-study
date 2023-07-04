@@ -6,10 +6,11 @@ type NavItem = {
   name: string;
 };
 
-const NavItems = [
+const NavItems: NavItem[] = [
   { href: "/", name: "Index" },
   { href: "/about", name: "About" },
   { href: "/todo", name: "Todo" },
+  { href: "/counter", name: "Counter" },
 ];
 
 export function Header() {
